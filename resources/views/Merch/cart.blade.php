@@ -41,7 +41,7 @@
     <body class="min-h-screen text-black">
             <div class="cart-container flex flex-col gap-1 justify-between w-[90%] mx-[5%] md:flex-row pt-[30px] overflow-hidden">
                 <div class="scroll-list w-3/4 w-full max-w-[1500px] p-[25px] mt-[50px] max-h-[70vh] md:mt-[50px] mt-[20px] md:h-auto h-[24vh]">
-                  <h1 class="text-center text-[#f6e79c]" style="text-shadow: 0 0 10px #f6e79c, 0 0 20px #f6e79c;">Cart</h1>
+                  <h1 class="text-center text-[#f6e79c] font-lavish" style="text-shadow: 0 0 10px #f6e79c, 0 0 20px #f6e79c;">Cart</h1>
                   <div class="scroll-list__wrp js-scroll-content js-scroll-list w-full h-[24vh] md:h-[70vh] overflow-auto p-[25px] md:p-[50px] shadow-[0px_7px_46px_0px_rgba(0,0,0,0.3)] bg-[#a3b18a7c] rounded-[8px] border-2 border-solid border-[#f6e79c]">
                         <div id="veryUniqueItems">
                             @php
@@ -104,11 +104,11 @@
                     </div>
                 </div>
                   <div class="cart-checkout-container w-1/4 w-full max-w-[700px] p-[25px] mt-[50px] mr-auto">
-                    <h1 class="text-center text-[#f6e79c]" style="text-shadow: 0 0 10px #f6e79c#f6e79c, 0 0 20px #f6e79c;">Summary</h1>
+                    <h1 class="text-center text-[#f6e79c] font-lavish" style="text-shadow: 0 0 10px #f6e79c#f6e79c, 0 0 20px #f6e79c;">Summary</h1>
                     <div class="card bg-[#a3b18a7c] h-full border-2 border-solid border-[#f6e79c]">
                       <div class="card-content p-[10px]">
                             <form action="/merch/checkout" method="POST" enctype="multipart/form-data"
-                            class="font-ltmuseumreg">
+                            class="font-lavish">
                             @csrf
                             <div class="flex flex-col">
                                 <label class="text-[#F1F5F9]" for="name" class="">Nama</label>

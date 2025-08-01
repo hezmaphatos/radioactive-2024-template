@@ -1,5 +1,5 @@
 <div id="navbar" x-data="{ isOpen: false }"
-    class="font-royale-serif sticky top-0 z-50 w-full bg-[#0e0e0e] bg-opacity-80 backdrop-blur-md shadow-md py-8 px-4 lg:px-12 xl:px-20">
+    class="font-lavish sticky top-0 z-50 w-full bg-[#20661c] bg-opacity-80 backdrop-blur-md shadow-md py-8 px-4 lg:px-12 xl:px-20">
 
     <div class="max-w-7xl mx-auto flex items-center justify-between relative">
 
@@ -46,12 +46,12 @@
             @auth
                 <span class="text-sm text-white tracking-widest">Welcome, {{ auth()->user()->name }}</span>
                 <a href="/logout"
-                    class="bg-[#f6e79c] hover:bg-white text-black px-4 py-1 text-sm font-semibold rounded-full no-underline transition">
+                    class="bg-[#f6e79c] hover:bg-white text-black px-4 py-1 text-sm font-lavish rounded-full no-underline transition">
                     Logout
                 </a>
             @else
                 <a href="/login"
-                    class="bg-[#f6e79c] hover:bg-white text-black px-5 py-1 text-sm font-semibold rounded-full no-underline transition">
+                    class="bg-[#f6e79c] hover:bg-white text-black px-5 py-1 text-sm font-lavish rounded-full no-underline transition">
                     Login
                 </a>
             @endauth
@@ -73,7 +73,7 @@
         @foreach ($menus as $menu)
             <div class="flex items-center space-x-3 mb-4">
                 <i class="fas {{ $menu['icon'] }} w-5 h-5 text-white"></i>
-                <a href="{{ $menu['href'] }}" class="text-sm font-ltmuseumbold text-white no-underline">
+                <a href="{{ $menu['href'] }}" class="text-sm font-lavish text-white no-underline">
                     {{ $menu['desc'] }}
                 </a>
             </div>
@@ -84,12 +84,12 @@
                 Welcome, {{ auth()->user()->name }}
             </div>
             <a href="/logout"
-                class="block bg-[#f6e79c] text-black px-4 py-2 text-sm rounded-full text-center mt-2 font-semibold no-underline hover:bg-white transition">
+                class="block bg-[#f6e79c] text-black px-4 py-2 text-sm rounded-full text-center mt-2 font-lavish no-underline hover:bg-white transition">
                 Logout
             </a>
         @else
             <a href="/login"
-                class="block bg-[#f6e79c] text-black px-4 py-2 text-sm rounded-full text-center mt-2 font-semibold no-underline hover:bg-white transition">
+                class="block bg-[#f6e79c] text-black px-4 py-2 text-sm rounded-full text-center mt-2 font-lavish no-underline hover:bg-white transition">
                 Login
             </a>
         @endauth

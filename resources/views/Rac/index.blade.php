@@ -1,35 +1,23 @@
 @extends('layouts.main')
 
 @section('container')
-<body class="text-white" style="
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('{{ asset('images/footerbg.webp') }}') no-repeat center center fixed;
-  background-size: cover;
-  background-blend-mode: darken;
-">
+<body class="text-white">
     
-<section class="flex min-h-screen flex-col justify-center items-center text-center px-4 font-['Brody_Rawk',sans-serif] relative">
-
-    {{-- Background Decoration --}}
-    <div class="absolute inset-0 pointer-events-none" style="
-        background-image: 
-            radial-gradient(circle at 30% 70%, rgba(246, 231, 156, 0.08) 0%, transparent 50%),
-            radial-gradient(circle at 70% 30%, rgba(246, 231, 156, 0.06) 0%, transparent 50%);
-        z-index: 0;
-    "></div>
+<section class="flex min-h-screen flex-col justify-center items-center text-center px-4 font-lavish relative">
 
     <div id="title" class="text-center my-8 px-4 relative z-10">
-        <h1 class="m-[0.3em] text-2xl sm:text-3xl md:text-4xl font-royale tracking-[4px]" style="color: #f6e79c; text-shadow: 0 0 10px #f6e79c, 0 0 20px #f6e79c;">
+        <h1 class="m-[0.3em] text-2xl sm:text-3xl md:text-4xl font-lavish tracking-[4px]" style="color: #f6e79c; text-shadow: 0 0 10px #f6e79c, 0 0 20px #f6e79c;">
             RADIO ANNOUNCING COMPETITION
         </h1>
         {{-- Decorative underline --}}
         <div class="w-32 h-0.5 mx-auto mt-2 opacity-80" style="background: linear-gradient(90deg, transparent, #F6E79C, transparent);"></div>
     </div>
 
-    <p class="md:text-lg max-w-4xl text-base mb-8 font-royale z-10 relative" data-aos="fade-up" data-aos-delay="100">
+    <p class="md:text-lg max-w-4xl text-base mb-8 font-lavish z-10 relative" data-aos="fade-up" data-aos-delay="100">
         Radio Announcing Competition merupakan rangkaian acara utama RADIOACTIVE. 
         Lomba ini merupakan ajang untuk siswa SMA dan mahasiswa se-Jabodetabek untuk 
         memperluas wawasan dan mengasah kemampuan di dunia broadcasting. 
-        Kompetisi ini sesuai dengan nilai utama RADIOACTIVE 2024, yaitu “Surviving the Maze”. 
+        Kompetisi ini sesuai dengan nilai utama RADIOACTIVE 2025, yaitu “Surviving the Maze”. 
         Lomba ini mengasah kreativitas dalam membuat siaran, serta menggambarkan perjuangan manusia dalam menghadapi rintangan kehidupan.
     </p>
 
@@ -39,35 +27,30 @@
     </svg>
 </section>
 
-<section class="items-center justify-between max-w-5xl mx-auto mt-10 p-4 font-ltmuseum relative">
-    {{-- Handbook Background Decoration --}}
-    <div class="absolute inset-0 pointer-events-none" style="
-        background-image: 
-            radial-gradient(circle at 30% 70%, rgba(246, 231, 156, 0.08) 0%, transparent 50%),
-            radial-gradient(circle at 70% 30%, rgba(246, 231, 156, 0.06) 0%, transparent 50%);
-        z-index: 0;
-    "></div>
-
-    <div id="title" class="text-center my-8 px-4 relative z-10">
-        <h1 class="m-[0.3em] text-2xl sm:text-3xl md:text-4xl font-royale tracking-[4px]" style="color: #f6e79c; text-shadow: 0 0 10px #f6e79c, 0 0 20px #f6e79c;">
-    HANDBOOK
-    </h1>
-        {{-- Decorative underline --}}
-        <div class="w-32 h-0.5 mx-auto mt-2 opacity-80" style="background: linear-gradient(90deg, transparent, #F6E79C, transparent);"></div>
-    </div>
+                    <section
+                        class="min-h-screen flex flex-col justify-center items-center px-4 py-16 relative overflow-hidden">
+                        <div class="relative z-10 flex flex-col items-center w-full max-w-5xl">
+                            <div id="title" class="text-center my-8 px-4 relative z-10">
+                                <h1 class="m-[0.3em] text-2xl sm:text-3xl md:text-4xl font-lavish tracking-[4px]"
+                                    style="color: #f6e79c; text-shadow: 0 0 10px #f6e79c, 0 0 20px #f6e79c;">
+                                    HANDBOOK
+                                </h1>
+                                {{-- Decorative underline --}}
+                                <div class="w-32 h-0.5 mx-auto mt-2 opacity-80"
+                                    style="background: linear-gradient(90deg, transparent, #F6E79C, transparent);"></div>
+                            </div>
+                            <div class="w-full sm:w-[600px] h-[600px] bg-white rounded-md overflow-hidden shadow-lg mb-12"
+                                data-aos="zoom-in" data-aos-delay="100">
+                                <iframe src="https://drive.google.com/file/d/14iJn1t1djJVTXIiuQWvgExBh6DQ_IQbu/preview"
+                                    width="100%" height="100%"></iframe>
+                            </div>
+                        </div>
     </section>
 
-<section class="items-center justify-between max-w-5xl mx-auto mt-10 p-4 font-ltmuseum relative">
-    {{-- Judges Background Decoration --}}
-    <div class="absolute inset-0 pointer-events-none" style="
-        background-image: 
-            radial-gradient(circle at 30% 70%, rgba(246, 231, 156, 0.08) 0%, transparent 50%),
-            radial-gradient(circle at 70% 30%, rgba(246, 231, 156, 0.06) 0%, transparent 50%);
-        z-index: 0;
-    "></div>
+<section class="items-center justify-between max-w-5xl mx-auto mt-10 p-4 font-lavish relative">
 
     <div id="title" class="text-center my-8 px-4 relative z-10">
-        <h1 class="m-[0.3em] text-2xl sm:text-3xl md:text-4xl font-royale tracking-[4px]" style="color: #f6e79c; text-shadow: 0 0 10px #f6e79c, 0 0 20px #f6e79c;">
+        <h1 class="m-[0.3em] text-2xl sm:text-3xl md:text-4xl font-lavish tracking-[4px]" style="color: #f6e79c; text-shadow: 0 0 10px #f6e79c, 0 0 20px #f6e79c;">
             JUDGES
         </h1>
         {{-- Decorative underline --}}

@@ -2,14 +2,13 @@
 
 @section('container')
 
-    <body class="bg-black text-white font-royale">
+    <body class=" text-white font-lavish">
 
         {{-- PARALLAX BACKGROUND WRAPPER --}}
-        <div class="bg-fixed bg-center bg-cover bg-no-repeat min-h-screen"
-            style="background-image: url('{{ asset('images/mac-bg.jpeg') }}');">
+        <div class="">
 
             {{-- Overlay --}}
-            <div class="bg-black bg-opacity-70 w-full h-full">
+            <div class="">
 
                 {{-- CONTENT --}}
                 <div class="max-w-7xl mx-auto">
@@ -17,7 +16,7 @@
                     {{-- BAGIAN 1 - JUDUL DAN DESKRIPSI --}}
                     <section class="min-h-screen flex flex-col justify-center items-center text-center px-4 py-16">
                         <div id="title" class="text-center my-8 px-4 relative z-10">
-                            <h1 class="m-[0.3em] text-2xl sm:text-3xl md:text-4xl font-royale-serif tracking-[4px]"
+                            <h1 class="m-[0.3em] text-2xl sm:text-3xl md:text-4xl font-lavish tracking-[4px]"
                                 style="color: #f6e79c; text-shadow: 0 0 10px #f6e79c, 0 0 20px #f6e79c;">
                                 MINI ANNOUNCING CHALLENGE
                             </h1>
@@ -39,31 +38,31 @@
                         <div class="relative z-10 flex flex-col items-center w-full max-w-5xl">
 
                             {{-- TIMELINE --}}
-                            <div id="title" class="text-center my-8 px-4 relative z-10">
-                                <h1 class="m-[0.3em] text-2xl sm:text-3xl md:text-4xl font-royale-serif tracking-[4px]"
+                            {{-- <div id="title" class="text-center my-8 px-4 relative z-10">
+                                <h1 class="m-[0.3em] text-2xl sm:text-3xl md:text-4xl font-lavish tracking-[4px]"
                                     style="color: #f6e79c; text-shadow: 0 0 10px #f6e79c, 0 0 20px #f6e79c;">
                                     TIMELINE
-                                </h1>
+                                </h1> --}}
                                 {{-- Decorative underline --}}
-                                <div class="w-32 h-0.5 mx-auto mt-2 opacity-80"
+                                {{-- <div class="w-32 h-0.5 mx-auto mt-2 opacity-80"
                                     style="background: linear-gradient(90deg, transparent, #F6E79C, transparent);"></div>
-                            </div>
+                            </div> --}}
                             <!-- <p class="text-base sm:text-lg mb-8" data-aos="fade-up" data-aos-delay="100">
                                 {{-- isi timeline jika ada --}}
                             </p> -->
-                            <div class="bg-black bg-opacity-60 border border-[#f6e79c] p-6 rounded-lg text-center w-full max-w-md mb-12"
+                            {{-- <div class="bg-black bg-opacity-60 border border-[#f6e79c] p-6 rounded-lg text-center w-full max-w-md mb-12"
                                 data-aos="fade-up" data-aos-delay="200">
-                                <h3 class="text-xl sm:text-2xl text-[#f6e79c] font-royale-serif mb-2">
+                                <h3 class="text-xl sm:text-2xl text-[#f6e79c] font-lavish mb-2">
                                     2-9 September 2025
                                 </h3>
                                 <p class="text-sm sm:text-base">
                                     Pendaftaran dibuka melalui Google Form atau kunjungi langsung booth kami.
                                 </p>
-                            </div>
+                            </div> --}}
 
                             {{-- HANDBOOK --}}
                             <div id="title" class="text-center my-8 px-4 relative z-10">
-                                <h1 class="m-[0.3em] text-2xl sm:text-3xl md:text-4xl font-royale-serif tracking-[4px]"
+                                <h1 class="m-[0.3em] text-2xl sm:text-3xl md:text-4xl font-lavish tracking-[4px]"
                                     style="color: #f6e79c; text-shadow: 0 0 10px #f6e79c, 0 0 20px #f6e79c;">
                                     HANDBOOK
                                 </h1>
@@ -80,7 +79,7 @@
                             {{-- READY TO TAKE THE CHALLENGE --}}
                             <a href="https://forms.gle/XTN1WX2vDHp6veNn7" target="_blank" class="no-underline">
                                 <div id="title" class="text-center my-8 px-4 relative z-10" data-aos="fade-up">
-                                    <h1 class="m-[0.3em] text-2xl sm:text-3xl md:text-4xl font-royale-serif tracking-[4px] transition duration-300 hover:text-white"
+                                    <h1 class="m-[0.3em] text-2xl sm:text-3xl md:text-4xl font-lavish tracking-[4px] transition duration-300 hover:text-white"
                                         style="color: #f6e79c; text-shadow: 0 0 10px #f6e79c, 0 0 20px #f6e79c;"
                                         onmouseover="this.style.color='#ffffff'; this.style.textShadow='0 0 10px #ffffff, 0 0 20px #ffffff';"
                                         onmouseout="this.style.color='#f6e79c'; this.style.textShadow='0 0 10px #f6e79c, 0 0 20px #f6e79c';">

@@ -68,11 +68,11 @@
         <div class="px-4 sm:px-8 md:px-20 lg:px-48">
             <p class="font-royalecoutureserif text-sm sm:text-base md:text-lg lg:text-xl text-white text-justify md:text-center tracking-wider mb-4 sm:mb-6 leading-relaxed">
                 RADIOACTIVE adalah Acara off air tahunan yang diselenggarakan oleh UMN Radio, radio komunitas
-                Universitas Multimedia Nusantara. Pertama kali diadakan di tahun 2015, RADIOACTIVE 2024 merupakan kali
+                Universitas Multimedia Nusantara. Pertama kali diadakan di tahun 2015, RADIOACTIVE 2025 merupakan kali
                 ke-10 acara ini diselenggarakan.
             </p>
             <p class="font-royalecoutureserif text-sm sm:text-base md:text-lg lg:text-xl text-white text-justify md:text-center tracking-wider leading-relaxed">
-                RADIOACTIVE 2024 mengangkat tema "RADIOACTIVE 2024: Resilience Era", dengan tagline "Dare to Strive",
+                RADIOACTIVE 2025 mengangkat tema "RADIOACTIVE 2025: Resilience Era", dengan tagline "Dare to Strive",
                 serta bertujuan agar individu yang telah berevolusi mampu mempertahankan perubahannya dan
                 mengembangkannya dalam perjuangan tanpa ada rasa cukup.
             </p>
@@ -100,10 +100,10 @@
             <div class="md:grid md:grid-cols-2 md:gap-8 items-center">
                 <div class="border border-white rounded-2xl p-4 sm:p-6 bg-opacity-20 backdrop-blur-md text-white">
                     <h2 class="mb-2 text-sm sm:text-base md:text-lg text-gold font-bold">
-                        2 - 9 September 2024 : Mini Annoucing Challenge
+                        2 - 9 September 2025 : Mini Annoucing Challenge
                     </h2>
                     <p class="text-xs sm:text-sm md:text-base text-gray-300">
-Mini Annoucing Challenge merupakan salah satu rangkaian acara RADIOACTIVE 2024. Mini
+Mini Annoucing Challenge merupakan salah satu rangkaian acara RADIOACTIVE 2025. Mini
                                 Annoucing Challenge bertujuan untuk mengasah skill para peserta dalam bidang siaran. Dalam
                                 challenge ini, peserta tidak dibatasi untuk berkreasi. Teknis dari Mini Annoucing Challenge
                                 ini adalah peserta dapat siaran menggunakan tema dan 3 kata yang sudah dipilih secara acak.
@@ -118,13 +118,13 @@ Mini Annoucing Challenge merupakan salah satu rangkaian acara RADIOACTIVE 2024. 
                 <div></div>
                 <div class="border border-white rounded-2xl p-4 sm:p-6 bg-opacity-20 backdrop-blur-md text-white">
                     <h2 class="mb-2 text-sm sm:text-base md:text-lg text-gold font-bold">
-                        2 September – 12 Oktober 2024 : Radio Announcing Competition
+                        2 September – 12 Oktober 2025 : Radio Announcing Competition
                     </h2>
                     <p class="text-xs sm:text-sm md:text-base text-gray-300">
 Radio Announcing Competition merupakan rangkaian acara utama RADIOACTIVE. Lomba ini merupa
                                 kan ajang untuk siswa SMA dan mahasiswa se-Jabodetabek untuk memperluas wawasan dan mengasah
                                 kemampuan di dunia broadcasting. Radio Announcing Competition ini memiliki konsep yang
-                                sesuai dengan nilai utama RADIOACTIVE 2024, yaitu "Surviving the Maze". Tujuan dari lomba
+                                sesuai dengan nilai utama RADIOACTIVE 2025, yaitu "Surviving the Maze". Tujuan dari lomba
                                 ini adalah untuk mengasah kreativitas peserta dalam membuat siaran dan secara tidak langsung
                                 memberikan informasi hingga mengajak para peserta untuk menggambarkan perjuangan manusia
                                 dalam menghadapi rintangan dan lika-liku kehidupan.                    </p>
@@ -135,13 +135,13 @@ Radio Announcing Competition merupakan rangkaian acara utama RADIOACTIVE. Lomba 
             <div class="md:grid md:grid-cols-2 md:gap-8 items-center">
                 <div class="border border-white rounded-2xl p-4 sm:p-6 bg-opacity-20 backdrop-blur-md text-white">
                     <h2 class="mb-2 text-sm sm:text-base md:text-lg text-gold font-bold">
-                        2 November 2024 : CLOSING NIGHT
+                        2 November 2025 : AWARDING NIGHT
                     </h2>
                     <p class="text-xs sm:text-sm md:text-base text-gray-300">
-Closing Night merupakan puncak dan penutup dari rangkaian acara RADIOACTIVE 2024 yang akan
+Closing Night merupakan puncak dan penutup dari rangkaian acara RADIOACTIVE 2025 yang akan
                                 dilaksanakan secara offline. Kegiatan ini bertujuan untuk meningkatkan awareness dan
                                 engagement RADIOACTIVE sebagai acara tahunan dari UMN Radio. Konsep Closing Night tahun ini
-                                adalah "Valiant Against Fear" , Radioactive 2024 mengajak seluruh peserta dan panitia untuk
+                                adalah "Valiant Against Fear" , Radioactive 2025 mengajak seluruh peserta dan panitia untuk
                                 dapat bertahan setelah keluar dari zona nyaman mereka. Untuk closing night Radioactive tahun
                                 ini akan diadakan secara intimate karena untuk berusaha bertahan di zona nyaman, tahap awal
                                 yang dapat dilakukan adalah berfokus di skala yang kecil terlebih dahulu, kemudian baru
@@ -328,7 +328,7 @@ Closing Night merupakan puncak dan penutup dari rangkaian acara RADIOACTIVE 2024
         <div class="flex flex-col lg:flex-row px-4 md:px-8 lg:px-12 mt-12 sm:mt-16 md:mt-20 space-y-6 lg:space-y-0 lg:space-x-6">
             {{-- Gallery Filter Section --}}
             <div class="w-full lg:w-1/4 p-4 md:p-6">
-                <h1 class="text-base sm:text-lg md:text-xl font-lavish text-gold mb-2 md:mb-4">UMN RADIOACTIVE 2023</h1>
+                <h1 class="text-base sm:text-lg md:text-xl font-lavish text-gold mb-2 md:mb-4">UMN RADIOACTIVE 2025</h1>
                 <div class="relative text-center my-4 sm:my-6 font-lavish">
                     <span class="absolute inset-0 text-lg sm:text-xl md:text-3xl lg:text-4xl font-bold text-transparent bg-gradient-to-r from-gold to-white bg-clip-text blur-xl opacity-60 select-none">
                         Flashback to last year's thrills!
@@ -421,10 +421,10 @@ Closing Night merupakan puncak dan penutup dari rangkaian acara RADIOACTIVE 2024
         <div id="after" class="mt-12 sm:mt-16 md:mt-20 lg:mt-24 px-4" data-aos="fade-up">
             <div class="relative text-center mb-6 sm:mb-8 md:mb-12 font-lavish">
                 <span class="absolute inset-0 text-base sm:text-lg md:text-2xl lg:text-3xl text-transparent bg-gradient-to-r from-gold to-white bg-clip-text blur-xl opacity-60 select-none tracking-wider">
-                    AFTER MOVIE RADIOACTIVE 2023
+                    TEASER RADIOACTIVE 2025
                 </span>
                 <h2 class="relative z-10 glow-text text-base sm:text-lg md:text-2xl lg:text-3xl text-transparent bg-gradient-to-r from-gold to-white bg-clip-text tracking-wider">
-                    AFTER MOVIE RADIOACTIVE 2023
+                    TEASER RADIOACTIVE 2025
                 </h2>
             </div>
             <div class="w-full flex justify-center">
@@ -596,8 +596,8 @@ Closing Night merupakan puncak dan penutup dari rangkaian acara RADIOACTIVE 2024
         {{-- Date Check Script --}}
         <script>
             var CurrentDate = new Date();
-            var regDate = new Date("2023-09-18");
-            var closeDate = new Date("2024-10-20");
+            var regDate = new Date("2025-09-18");
+            var closeDate = new Date("2026-10-20");
             var btnReg = document.getElementById('btnReg');
 
             function checkTime() {
