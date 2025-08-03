@@ -25,7 +25,7 @@
                     <p class="text-center font-lavish text-xs sm:text-sm md:text-base text-white tracking-wider sm:tracking-widest">
                         THE MOST SPECTACULAR ANNUAL EVENT BY
                     </p>
-                    <img class="w-16 sm:w-20 md:w-24" src="images/LOGO UMN RADIO.webp" alt="UMN Radio Logo">
+                    <img class="w-16 sm:w-20 md:w-24" src="{{ asset('images/LOGO UMN RADIO.webp') }}" alt="UMN Radio Logo">
                 </div>
             </div>
 
